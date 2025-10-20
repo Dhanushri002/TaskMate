@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "DATABASE_URL": "@database-url",
+    "CLERK_SECRET_KEY": "@clerk-secret-key",
+    "OPENAI_API_KEY": "@openai-api-key"
+  }
+}
